@@ -18,6 +18,7 @@ def list_questions(request):
             | Q(answer_text__icontains=query)
             # | Q(tags__contains=query)
         )
+    objects = objects.order_by("pk")
     paginated = Paginator(objects, per_page=settings.DEFAULT_PAGE_SIZE)
     page_obj = paginated.get_page(page)
     return render(request, template_name, {"page_obj": page_obj})
