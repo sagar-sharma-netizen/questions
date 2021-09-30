@@ -19,6 +19,7 @@ pytest-black==0.3.12
 python-dotenv==0.19.0
 pytz==2021.1
 regex==2021.8.28
+setproctitle==1.2.2
 sqlparse==0.4.2
 toml==0.10.2
 tomli==1.2.1
