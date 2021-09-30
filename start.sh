@@ -7,7 +7,7 @@ NAME="questions"
 DJANGO_DIR=$PWD
 
 # SOCKET FILE
-SOCKET_FILE=run/gunicorn.sock
+SOCKET_FILE=/run/gunicorn.sock
 
 # USER
 USER=ubuntu
