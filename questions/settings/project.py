@@ -57,3 +57,5 @@ INSTALLED_APPS += [
     "apis",
     "rest_framework"
 ]
+
+ALLOWED_HOSTS = get_env_value("ALLOWED_HOSTS")
